@@ -1,4 +1,4 @@
-package com.softtek.modelo;
+package com.softtek.modelo.ejercicio2;
 
 public class Operador extends Empleado {
     private int piezas;

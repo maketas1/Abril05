@@ -1,4 +1,4 @@
-package com.softtek.modelo;
+package com.softtek.modelo.ejercicio1;
 
 public class Producto {
     protected String nombre;

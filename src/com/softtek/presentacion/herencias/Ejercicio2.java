@@ -1,8 +1,8 @@
 package com.softtek.presentacion.herencias;
 
-import com.softtek.modelo.Gerente;
-import com.softtek.modelo.Vendedor;
-import com.softtek.modelo.Operador;
+import com.softtek.modelo.ejercicio2.Gerente;
+import com.softtek.modelo.ejercicio2.Vendedor;
+import com.softtek.modelo.ejercicio2.Operador;
 
 public class Ejercicio2 {
     public static void main(String[] args) {

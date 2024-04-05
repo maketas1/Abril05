@@ -1,4 +1,4 @@
-package com.softtek.modelo;
+package com.softtek.modelo.ejercicio1;
 
 import java.time.LocalDate;
 import java.time.temporal.ChronoUnit;

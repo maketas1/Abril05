@@ -1,6 +1,6 @@
 package com.softtek.presentacion.herencias;
 
-import com.softtek.modelo.ProductoPerecedero;
+import com.softtek.modelo.ejercicio1.ProductoPerecedero;
 
 import java.time.LocalDate;
 

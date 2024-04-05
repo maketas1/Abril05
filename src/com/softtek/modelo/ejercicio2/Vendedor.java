@@ -1,4 +1,4 @@
-package com.softtek.modelo;
+package com.softtek.modelo.ejercicio2;
 
 public class Vendedor extends Empleado{
     private double ventas;

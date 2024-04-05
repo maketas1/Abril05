@@ -1,4 +1,4 @@
-package com.softtek.modelo;
+package com.softtek.modelo.ejercicio3;
 
 public class Triangulo extends Figura{
     private double base;

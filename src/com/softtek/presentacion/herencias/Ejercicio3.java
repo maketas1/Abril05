@@ -1,7 +1,7 @@
 package com.softtek.presentacion.herencias;
 
-import com.softtek.modelo.Triangulo;
-import com.softtek.modelo.Cuadrado;
+import com.softtek.modelo.ejercicio3.Triangulo;
+import com.softtek.modelo.ejercicio3.Cuadrado;
 
 public class Ejercicio3 {
     public static void main(String[] args) {
