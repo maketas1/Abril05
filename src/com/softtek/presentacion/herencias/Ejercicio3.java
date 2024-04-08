@@ -1,5 +1,6 @@
 package com.softtek.presentacion.herencias;
 
+import com.softtek.modelo.ejercicio3.Figura;
 import com.softtek.modelo.ejercicio3.Triangulo;
 import com.softtek.modelo.ejercicio3.Cuadrado;
 
@@ -34,5 +35,19 @@ public class Ejercicio3 {
         Triangulo tMediano = new Triangulo(30, 30, 15, 10);
         System.out.println("El " + tMediano.toString() + " a sido creado");
         System.out.println("El area de este triangulo es: " + tMediano.calcularArea() + " y sus posiciones son: " + tMediano.mostrarPosiciones());
+        System.out.println(" ");
+
+        System.out.println("Apartado 5");
+        Figura[] lista = new Figura[4];
+        lista[0] = cPequeño;
+        lista[1] = cMediano;
+        lista[2] = tPequeño;
+        lista[3] = tMediano;
+        System.out.println(" ");
+
+        System.out.println("Apartado 6");
+        for (Figura figura : lista) {
+            System.out.println(figura.calcularArea());
+        }
     }
 }
