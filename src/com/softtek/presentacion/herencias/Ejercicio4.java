@@ -21,5 +21,17 @@ public class Ejercicio4 {
         Flauta flauta = new Flauta("Fentar", "Madera");
         System.out.println(flauta.toString());
         System.out.println(" ");
+
+        System.out.println("Ejercicio 4");
+        InstrumentoMusical[] lista = new InstrumentoMusical[3];
+        lista[0] = guitarra;
+        lista[1] = bateria;
+        lista[2] = flauta;
+        System.out.println(" ");
+
+        System.out.println("Ejercicio 5");
+        for (InstrumentoMusical instrumentoMusical : lista) {
+            System.out.println(instrumentoMusical.emitirSonido());
+        }
     }
 }
