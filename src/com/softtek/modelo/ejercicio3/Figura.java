@@ -1,6 +1,6 @@
 package com.softtek.modelo.ejercicio3;
 
-public class Figura {
+public abstract class Figura {
     protected int x;
     protected int y;
 
@@ -12,10 +12,7 @@ public class Figura {
         this.y = y;
     }
 
-    public double calcularArea(double num1, double num2) {
-        double resultado = num1 * num2;
-        return resultado;
-    }
+    public abstract double calcularArea();
 
     public String mostrarPosiciones() {
         return  "x->" + x +

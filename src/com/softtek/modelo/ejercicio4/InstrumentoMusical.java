@@ -1,6 +1,6 @@
 package com.softtek.modelo.ejercicio4;
 
-public class InstrumentoMusical {
+public abstract class InstrumentoMusical {
     protected String marca;
 
     public InstrumentoMusical() {
@@ -10,9 +10,7 @@ public class InstrumentoMusical {
         this.marca = marca;
     }
 
-    public String emitirSonido(String sonido) {
-        return sonido;
-    }
+    public abstract String emitirSonido();
 
     @Override
     public String toString() {

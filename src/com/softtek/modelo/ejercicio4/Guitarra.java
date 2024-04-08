@@ -6,13 +6,14 @@ public class Guitarra extends InstrumentoMusical{
     public Guitarra() {
     }
 
+    @Override
+    public String emitirSonido() {
+        return "acorde DO menor";
+    }
+
     public Guitarra(String marca, String tipoCuerdas) {
         super(marca);
         this.tipoCuerdas = tipoCuerdas;
-    }
-
-    public String emitirSonido() {
-        return super.emitirSonido("acorde DO menor");
     }
 
     @Override

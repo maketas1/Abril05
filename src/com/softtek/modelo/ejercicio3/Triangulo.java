@@ -7,16 +7,15 @@ public class Triangulo extends Figura{
     public Triangulo() {
     }
 
+    @Override
+    public double calcularArea() {
+        return (base * altura) / 2;
+    }
+
     public Triangulo(int x, int y, double base, double altura) {
         super(x, y);
         this.base = base;
         this.altura = altura;
-    }
-
-    public double calcularArea() {
-        double multiplicacion = super.calcularArea(base, altura);
-        double resultado = multiplicacion/2;
-        return resultado;
     }
 
     @Override

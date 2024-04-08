@@ -6,13 +6,14 @@ public class Bateria extends InstrumentoMusical{
     public Bateria() {
     }
 
+    @Override
+    public String emitirSonido() {
+        return "la caja ha sido golpeada";
+    }
+
     public Bateria(String marca, int numPlatillos) {
         super(marca);
         this.numPlatillos = numPlatillos;
-    }
-
-    public String emitirSonido() {
-        return super.emitirSonido("la caja ha sido golpeada");
     }
 
     @Override

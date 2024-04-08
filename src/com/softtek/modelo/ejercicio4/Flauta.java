@@ -6,13 +6,14 @@ public class Flauta extends InstrumentoMusical{
     public Flauta() {
     }
 
+    @Override
+    public String emitirSonido() {
+        return "silvido en DO bemol";
+    }
+
     public Flauta(String marca, String material) {
         super(marca);
         this.material = material;
-    }
-
-    public String emitirSonido() {
-        return super.emitirSonido("silvido en DO bemol");
     }
 
     @Override
